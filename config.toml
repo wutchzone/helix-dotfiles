@@ -10,7 +10,7 @@ color-modes = true
 
 [keys.normal]
 ";" = "command_mode"
-"space"= { w = ":w", ";" = "buffer_picker", "c" = ":clipboard-yank" }
+"space"= { w = ":w", ";" = "buffer_picker", "c" = ":clipboard-yank", "b" = { d = ":buffer-close"}, f = ":fmt", F = "file_picker" }
 "K" = "hover"
 
 [keys.insert]
